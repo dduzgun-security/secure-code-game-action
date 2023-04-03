@@ -1,0 +1,18 @@
+name: 'Only call GitHub Status Page, I promise'
+description: 'Greet someone, call GitHub status page and steal token'
+inputs:
+  who-to-greet:  # id of input
+    description: 'Who to greet'
+    required: true
+    default: 'World'
+  give-me-your-token-now:  # id of input
+    description: 'Give me your token NOW!'
+    required: true
+outputs:
+  time: # id of output
+    description: 'The time when we stole your token'
+  status: # id of output
+    description: 'GitHub status page result'
+runs:
+  using: 'node16'
+  main: 'index.js'
