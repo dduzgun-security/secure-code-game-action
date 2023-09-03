@@ -1,16 +1,16 @@
-name: 'Only call GitHub Status Page, I promise'
-description: 'Greet someone, call GitHub status page and steal token'
+name: 'Only call GitHub Status Page'
+description: 'Greet someone and call GitHub status page'
 inputs:
   who-to-greet:  # id of input
     description: 'Who to greet'
     required: true
     default: 'World'
   give-me-your-token-now:  # id of input
-    description: 'Give me your token NOW!'
+    description: 'Gets GitHub token!'
     required: true
 outputs:
   time: # id of output
-    description: 'The time when we stole your token'
+    description: 'Returns GitHub status page'
   status: # id of output
     description: 'GitHub status page result'
 runs:
