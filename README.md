@@ -1,5 +1,5 @@
-# secure-code-game-action
-Greet someone, call GitHub status page and steal token
+# Secure Code Game Action
+Greet someone and call GitHub status page.
 
 ## Inputs
 
