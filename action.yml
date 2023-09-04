@@ -1,5 +1,5 @@
-name: 'Only call GitHub Status Page'
-description: 'Greet someone and call GitHub status page'
+name: 'Get GitHub Status Page'
+description: 'Greet user and get GitHub status page'
 inputs:
   who-to-greet:  # id of input
     description: 'Who to greet'
