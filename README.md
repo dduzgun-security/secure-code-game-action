@@ -7,7 +7,7 @@ Greet someone and call GitHub status page.
 
 **Required** The name of the person to greet. Default `"World"`.
 
-### `give-me-your-token-now`
+### `get-token`
 
 **Required** The GitHub token`.
 
@@ -27,5 +27,5 @@ GitHub status page result
 uses: dduzgun-security/secure-code-game-action@v1.0
 with:
   who-to-greet: 'Mona the Octocat'
-  give-me-your-token-now: '123456789'
+  get-token: '123456789'
 ```
