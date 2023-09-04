@@ -1,21 +1,21 @@
-# Secure Code Game Action
-Greet someone and call GitHub status page.
+# Secure Code Game GitHub Action
+Greet someone and get GitHub's status page
 
 ## Inputs
 
 ### `who-to-greet`
 
-**Required** The name of the person to greet. Default `"World"`.
+**Required** The name of the person to greet. Default `"World"`
 
 ### `get-token`
 
-**Required** The GitHub token`.
+**Required** The GitHub token`
 
 ## Outputs
 
 ### `time`
 
-The time when we stole your token
+The time the token was retrieved
 
 ### `status`
 
