@@ -1,21 +1,21 @@
-# secure-code-game-action
-Greet someone, call GitHub status page and steal token
+# Secure Code Game GitHub Action
+Greet someone and get GitHub's status page
 
 ## Inputs
 
 ### `who-to-greet`
 
-**Required** The name of the person to greet. Default `"World"`.
+**Required** The name of the person to greet. Default `"World"`
 
-### `give-me-your-token-now`
+### `get-token`
 
-**Required** The GitHub token`.
+**Required** The GitHub token`
 
 ## Outputs
 
 ### `time`
 
-The time when we stole your token
+The time the token was retrieved
 
 ### `status`
 
@@ -27,5 +27,5 @@ GitHub status page result
 uses: dduzgun-security/secure-code-game-action@v1.0
 with:
   who-to-greet: 'Mona the Octocat'
-  give-me-your-token-now: '123456789'
+  get-token: '123456789'
 ```
