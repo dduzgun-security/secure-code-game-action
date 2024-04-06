@@ -9,7 +9,7 @@ Greet someone and get GitHub's status page
 
 ### `get-token`
 
-**Required** The GitHub token`
+**Required** The GitHub token
 
 ## Outputs
 
