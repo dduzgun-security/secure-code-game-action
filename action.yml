@@ -14,5 +14,5 @@ outputs:
   status: # id of output
     description: 'GitHub status page result'
 runs:
-  using: 'node16'
+  using: 'node20'
   main: 'index.js'
