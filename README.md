@@ -24,7 +24,7 @@ GitHub status page result
 ## Example usage
 
 ```yaml
-uses: dduzgun-security/secure-code-game-action@v1.0
+uses: dduzgun-security/secure-code-game-action@v2.0
 with:
   who-to-greet: 'Mona the Octocat'
   get-token: '123456789'

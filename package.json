@@ -1,7 +1,7 @@
 {
   "name": "secure-code-game-action",
-  "version": "1.0.0",
-  "description": "",
+  "version": "2.0.0",
+  "description": "Greet someone and get GitHub's status page",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,14 +11,14 @@
     "url": "git+https://github.com/dduzgun-security/secure-code-game-action.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "dduzgun-security",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/dduzgun-security/secure-code-game-action/issues"
   },
   "homepage": "https://github.com/dduzgun-security/secure-code-game-action#readme",
   "dependencies": {
-    "@actions/core": "^1.10.0",
+    "@actions/core": "^1.10.1",
     "@actions/github": "^5.1.1"
   }
 }
